@@ -22,7 +22,9 @@ class UI {
         productList.appendChild(element);
 
     }
-    resetForm() { }
+    resetForm() {
+
+    }
     deleteProduct() {
 
     }
