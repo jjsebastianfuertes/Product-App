@@ -20,12 +20,22 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <h4>form</h4>
+                        <h4>Product form</h4>
                     </div>
                     <form id="product-form" class="card-body">
-
+                        <div class="form-group">
+                            <input class="form-control" type='text' id="name" placeholder="Product Name">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="number" step="0.1" id="price" placeholder="Product price">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="number" id="year" min="2000" value="2019"
+                                placeholder="Year product">
+                        </div>
+                        <input type="submit" value="Save" class="btn btn-block btn-secondary">
+                    </form>
                 </div>
-
             </div>
         </div>
         <div class="col-md-8">
