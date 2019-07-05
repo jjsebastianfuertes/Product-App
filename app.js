@@ -61,7 +61,7 @@ document.getElementById('product-form').addEventListener('submit', function (eve
     const ui = new UI();
 
     if (name === '' || price === '' || year === '') {
-        return ui.showMessage('Must complete every field, please!')
+        return ui.showMessage('Must complete every field, please!', 'danger')
     }
     ui.addProduct(product);
     ui.showMessage('Product added succesfully!', 'success');
